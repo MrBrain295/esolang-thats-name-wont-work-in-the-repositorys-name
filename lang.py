@@ -1,10 +1,13 @@
 from random import random
+
+
 def ast():
     while True:
         cmd = input("*> ")
         if cmd == "*": print("Hello World")
         elif cmd == " * ": print(random() * 2147483647)
-        elif cmd == "**": print("""Who can say where the road goes
+        elif cmd == "**":
+            print("""Who can say where the road goes
 Where the day flows, only time
 And who can say if your love grows
 As your heart chose, only time
@@ -25,8 +28,10 @@ Who knows? Only time
 Who knows? Only time""")
 
         elif cmd == "*+*":
-            while True: pass
-            while False: print("""Every tear, every doubt
+            while True:
+                pass
+            while False:
+                print("""Every tear, every doubt
 Every time you've fallen down
 When you're hurting, feeling ashamed
 When you're numbing off your pain
@@ -68,5 +73,7 @@ You're worthy
 You're beautifully broken
 Beautifully broken
 You're beautifully broken""")
+
+
 #This currently dosen't work.
 #File_object = open(r"example","r")
